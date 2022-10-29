@@ -129,3 +129,16 @@ footer > div {
         margin-left: 0;
     }
 }
+
+@media only screen and (max-width: 480px)  {
+    .top-bar {
+        flex-direction: column;
+    }
+    .logo,
+    .social-links {
+        text-align: center;
+    }
+    .content article {
+        width: 100%;
+    }
+}
