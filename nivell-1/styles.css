@@ -118,3 +118,14 @@ aside article {
 footer > div {
     background-color: gold;
 }
+
+@media only screen and (max-width: 768px)  {
+    main {
+        background-color: gold;
+        flex-direction: column;
+    }
+    aside {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}
